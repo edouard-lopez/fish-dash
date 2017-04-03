@@ -11,6 +11,14 @@ These tools require the following to be installed:
 * `python3` - the `build.py` script is only supported under Python 3, it may work under Python 2 but this is not a guarantee! On OS X you can use homebrew to install it via `brew install python3`.
 * `BeautifulSoup` - for parsing the HTML files. Installable via `pip install beautifulsoup4`.
 
+## Install
+
+    git clone git@github.com:dan-c-underwood/fish-dash.git
+
+    python3 -m venv .env
+    . .env/bin/activate
+    pip install BeautifulSoup4
+
 ## Usage
 
 To generate the docset, run the command:
