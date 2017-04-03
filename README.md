@@ -14,7 +14,8 @@ Tools to allow for the generation of a [Dash](https://kapeli.com/dash) docset fo
 This homebrew distribution of `fish` also contains a local copy of the docs which removes the need to pull them from the fishshell website.
  
     brew install fish imagemagick
-    python3 -m venv .env && . .env/bin/activate
+    python3 -m venv .env 
+    . .env/bin/activate
     pip install beautifulsoup4
 
 ### Linux
@@ -22,7 +23,8 @@ This homebrew distribution of `fish` also contains a local copy of the docs whic
 Be sure to have [`fish`](https://github.com/fish-shell/fish-shell) installed.
 
     apt-get install python3 imagemagick    
-    python3 -m venv .env && . .env/bin/activate
+    python3 -m venv .env
+    . .env/bin/activate
     pip install BeautifulSoup4
 
 ## Install
