@@ -9,7 +9,7 @@ Tools to allow for the generation of a [Dash](https://kapeli.com/dash) docset fo
 * `python3`: `build.py` script only supported under Python 3 ;
 * `BeautifulSoup` - for parsing the HTML files.
 
-### OSX
+### MacOS
 
 This homebrew distribution of `fish` also contains a local copy of the docs which removes the need to pull them from the fishshell website.
  
